@@ -17,3 +17,13 @@ body {
   position: fixed;
   right: 0;
 }
+
+.battle {
+  display: flex;
+  align-content: center;
+  font-size: 100px;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
