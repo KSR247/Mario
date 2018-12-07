@@ -1,0 +1,29 @@
+{
+  "name": "Mario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "battle.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-dom": "^1.8.1",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSR247/Mario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KSR247/Mario/issues"
+  },
+  "homepage": "https://github.com/KSR247/Mario#readme"
+}
