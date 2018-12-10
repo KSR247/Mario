@@ -24,6 +24,9 @@ li:hover {
   list-style: none;
   /* border: black 2px solid; */
 }
+h3:hover {
+  border: black 2px solid;
+}
 
 /* ------------------player one props ---------------- */
 .wrapperOne {
@@ -54,7 +57,7 @@ li:hover {
 
 .healthBarOne {
   height: 30px;
-  width: 5%; /* The health is defined by width, to change the health modify the width */
+  width: 45%; /* The health is defined by width, to change the health modify the width */
   background-color: gray;
 }
 
