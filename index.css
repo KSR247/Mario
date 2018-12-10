@@ -22,13 +22,24 @@ li:hover {
   color: rgb(231, 65, 15);
   transform: scale(1.2);
   list-style: none;
-  /* border: black 2px solid; */
 }
 h3:hover {
   border: black 2px solid;
 }
 
-/* ------------------player one props ---------------- */
+.arena {
+  height: 500px;
+  width: 800px;
+  border: 5px black solid;
+  position: fixed;
+  top: 100px;
+  left: 400px;
+  background-image: url(./images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+}
+
+/* ------------------player one props ------------ ---- */
 .wrapperOne {
   display: flex;
   position: fixed;
@@ -44,11 +55,10 @@ h3:hover {
   background-image: url(./images/mario.png);
   background-repeat: no-repeat;
   height: 90%;
-  width: 45%;
+  width: 30%;
   margin-left: -450px;
   background-size: 200px 200px;
   transform: scaleX(-1);
-  flex: 1;
 }
 
 .playerImageOne {
@@ -57,14 +67,13 @@ h3:hover {
 
 .healthBarOne {
   height: 30px;
-  width: 45%; /* The health is defined by width, to change the health modify the width */
+  width: 10%; /* The health is defined by width, to change the health modify the width */
   background-color: gray;
 }
 
 .movesOne {
-  flex: 1;
-  justify-content: space-evenly;
   font-size: 1.5rem;
+  color: white;
 }
 
 /* ------------------player two props ---------------- */
@@ -75,9 +84,9 @@ h3:hover {
   flex-direction: column;
   top: 0;
   right: 0;
-  height: 25rem;
-  width: 40em;
-  align-content: space-between;
+  height: 10rem;
+  width: 33%;
+  align-content: space-evenly;
   flex-wrap: wrap-reverse;
   /* border: 2px solid black; */
 }
@@ -85,9 +94,9 @@ h3:hover {
 .playerTwo {
   background-image: url(./images/mario2.png);
   background-repeat: no-repeat;
-  height: 90%;
-  width: 45%;
-  margin-left: 550px;
+  height: 100%;
+  width: 35%;
+  margin-left: 300px;
   margin-top: 50px;
   background-size: 150px 150px;
 }
@@ -98,15 +107,13 @@ h3:hover {
 
 .healthBarTwo {
   height: 30px;
-  width: 35%;
+  width: 50%;
   background-color: gray;
 }
 
 .movesTwo {
-  flex: 1;
-  justify-content: space-evenly;
   font-size: 1.5rem;
-  padding-right: 30px;
+  padding-right: 150px;
   color: white;
 }
 
