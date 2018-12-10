@@ -9,9 +9,15 @@ class Character {
   get name() {
     this._name;
   }
+  pickMoves(move) {
+    this._moves.push(...move);
+  }
+  powerUpMove() {
+    if(this._healthPoint > 0 && this._powerUp) {
+      this._hitPoints += 5
+    }
+  }
 }
 
-const Mario = new Character('Mario', 'Jump')
-console.log(Mario)
 
-module.exports = {Character};
+module.exports = Character;

@@ -14,4 +14,4 @@ if (randomNumber > 0.5 && turn === true) {
     turn === true;
 }
 
-module.exports = {battle};
+module.exports = battle;
