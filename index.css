@@ -1,24 +1,116 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("https://image.freepik.com/free-vector/blue-comic-background-with-lines-and-halftone_1017-11432.jpg");
+  background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
   text-align: center;
+  box-sizing: border-box;
+}
+
+/* ------------------Battle page props ---------------- */
+
+.health {
+  background-color: rgb(29, 235, 29);
+}
+li {
+  list-style: none;
+}
+li:hover {
+  color: rgb(231, 65, 15);
+  transform: scale(1.2);
+  list-style: none;
+  /* border: black 2px solid; */
+}
+h3:hover {
+  border: black 2px solid;
+}
+
+/* ------------------player one props ---------------- */
+.wrapperOne {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  bottom: 0;
+  height: 18rem;
+  width: 40em;
+  align-content: space-between;
+  flex-wrap: wrap;
 }
 
 .playerOne {
-  position: fixed;
-  bottom: 0;
-}
-.playerTwo {
-  position: fixed;
-  right: 0;
+  background-image: url(./images/mario.png);
+  background-repeat: no-repeat;
+  height: 90%;
+  width: 45%;
+  margin-left: -450px;
+  background-size: 200px 200px;
+  transform: scaleX(-1);
+  flex: 1;
 }
 
-.battle {
+.playerImageOne {
+  height: 220px;
+}
+
+.healthBarOne {
+  height: 30px;
+  width: 45%; /* The health is defined by width, to change the health modify the width */
+  background-color: gray;
+}
+
+.movesOne {
+  flex: 1;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+/* ------------------player two props ---------------- */
+
+.wrapperTwo {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  height: 25rem;
+  width: 40em;
+  align-content: space-between;
+  flex-wrap: wrap-reverse;
+  /* border: 2px solid black; */
+}
+
+.playerTwo {
+  background-image: url(./images/mario2.png);
+  background-repeat: no-repeat;
+  height: 90%;
+  width: 45%;
+  margin-left: 550px;
+  margin-top: 50px;
+  background-size: 150px 150px;
+}
+
+.playerImageTwo {
+  height: 200px;
+}
+
+.healthBarTwo {
+  height: 30px;
+  width: 35%;
+  background-color: gray;
+}
+
+.movesTwo {
+  flex: 1;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  padding-right: 30px;
+  color: white;
+}
+
+/* .battle {
   display: flex;
   align-content: center;
   font-size: 100px;
@@ -26,4 +118,4 @@ body {
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
-}
+} */

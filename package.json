@@ -2,18 +2,19 @@
   "name": "Mario",
   "version": "1.0.0",
   "description": "",
-  "main": "battle.js",
+  "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "mocha ./spec"
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "chai-dom": "^1.8.1",
+    "chai-dom": "^1.8.1"
+  },
+  "devDependencies": {
     "mocha": "^5.2.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./spec"
   },
   "repository": {
     "type": "git",
