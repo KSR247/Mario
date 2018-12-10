@@ -57,7 +57,7 @@ h3:hover {
 
 .healthBarOne {
   height: 30px;
-  width: 45%; /* The health is defined by width, to change the health modify the width */
+  width: 40%; /* The health is defined by width, to change the health modify the width */
   background-color: gray;
 }
 
